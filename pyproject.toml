@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "denoise"
+version = "0.1.0"
+description = "Uniform-noise injection for stellar cluster catalogues."
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.4",
+    "pandas>=3.0",
+    "astropy>=7.2",
+    "plotly>=6.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

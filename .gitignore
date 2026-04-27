@@ -1,0 +1,19 @@
+/noise_removal_old/
+/data/
+
+# Python build / cache artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS
+.DS_Store
